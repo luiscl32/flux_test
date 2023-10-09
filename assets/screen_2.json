@@ -1,0 +1,70 @@
+{
+    "type": "scaffold",
+    "args":{
+    "body":{
+    "type": "container",
+    "args": {
+        "padding": [ 16,16,16,16 ],
+        "width": "infinity",
+        "color": "#ffffff",
+        "child": {
+            "type": "column",
+            "args": {
+                "mainAxisAlignment":"center",
+                "crossAxisAlignment": "center",
+                "children": [
+                    {
+                        "type": "text",
+                        "args": {
+                            "text": "Screen 2, from json file",
+                            "style": {
+                                "color": "#2d2d2d",
+                                "fontSize": 20,
+                                "fontWeight": "bold",
+                                "textAlign": "center"
+                            }
+                        }
+                    },
+                                {
+                        "type":"sized_box",
+                        "args":{
+                            "height": 12
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "args": {
+                            "text": "Tempor exercitation deserunt et tempor qui est in dolore do culpa sit Lorem.",
+                            "style": {
+                                "color": "#2d2d2d",
+                                "fontSize": 14,
+                                "fontWeight": "normal",
+                                "textAlign": "center"
+                            }
+                        }
+                    },
+                    {
+                        "type":"sized_box",
+                        "args":{
+                            "height": 12
+                        }
+                    },
+                    {
+                        "type": "elevated_button",
+                        "args":{
+                            "onPressed":"${navigate_pop(true)}",
+                            "child":{
+                                "type":"text",
+                                "args": {
+                                    "text": "go back"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
+}
+}

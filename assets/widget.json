@@ -1,0 +1,44 @@
+{
+    "type": "container",
+    "args": {
+        "width": "infinity",
+        "color": "#ffffff",
+        "child": {
+            "type": "column",
+            "args": {
+                "mainAxisAlignment":"center",
+                "crossAxisAlignment": "center",
+                "children": [
+                    {
+                        "type": "text",
+                        "args": {
+                            "text": "hello world i'm a json component",
+                            "style": {
+                                "color": "#2d2d2d",
+                                "fontSize": 20
+                            }
+                        }
+                    },
+                    {
+                        "type":"sized_box",
+                        "args":{
+                            "height": 12
+                        }
+                    },
+                    {
+                        "type": "elevated_button",
+                        "args":{
+                            "onPressed":"${log('my message', 'info')}",
+                            "child":{
+                                "type":"text",
+                                "args": {
+                                    "text": "press me!"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

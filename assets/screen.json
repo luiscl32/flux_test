@@ -1,0 +1,299 @@
+{
+    "type": "scaffold",
+    "args": {
+        "body": {
+            "type": "single_child_scroll_view",
+            "args": {
+                "child": {
+                    "type": "container",
+                    "args": {
+                        "padding": [
+                            16,
+                            16,
+                            16,
+                            16
+                        ],
+                        "width": "infinity",
+                        "color": "#ffffff",
+                        "child": {
+                            "type": "column",
+                            "args": {
+                                "mainAxisAlignment": "center",
+                                "crossAxisAlignment": "center",
+                                "children": [
+                                    {
+                                        "type": "text",
+                                        "args": {
+                                            "text": "hola mundo , asdasdlkajsdklsadjl",
+                                            "style": {
+                                                "color": "#2d2d2d",
+                                                "fontSize": 20,
+                                                "fontWeight": "bold",
+                                                "textAlign": "center"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "sized_box",
+                                        "args": {
+                                            "height": 12
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "args": {
+                                            "text": "Tempor exercitation deserunt et tempor qui est in dolore do culpa sit Lorem.",
+                                            "style": {
+                                                "color": "#2d2d2d",
+                                                "fontSize": 14,
+                                                "fontWeight": "normal",
+                                                "textAlign": "center"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "sized_box",
+                                        "args": {
+                                            "height": 12
+                                        }
+                                    },
+                                    {
+                                        "type": "card",
+                                        "args": {
+                                            "color": "#FDFDFD",
+                                            "elevation": 10,
+                                            "shape": {
+                                                "type": "rounded",
+                                                "borderRadius": 15
+                                            },
+                                            "child": {
+                                                "type": "sized_box",
+                                                "args": {
+                                                    "width": "infinity",
+                                                    "child": {
+                                                        "type": "padding",
+                                                        "args": {
+                                                            "padding": [
+                                                                16,
+                                                                16,
+                                                                16,
+                                                                16
+                                                            ],
+                                                            "child": {
+                                                                "type": "column",
+                                                                "args": {
+                                                                    "children": [
+                                                                        {
+                                                                            "type": "network_image",
+                                                                            "args": {
+                                                                                "fit": "fitWidth",
+                                                                                "src": "https://i.pinimg.com/originals/c2/23/88/c22388a126bd2c5e479821bb61f663ea.jpg"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "type": "sized_box",
+                                                                            "args":{
+                                                                                "height":12
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "type":"text",
+                                                                            "args": {
+                                                                                "style":{
+                                                                                    "fontSize": "20",
+                                                                                    "fontWeight": "bold"
+                                                                                },
+
+                                                                                "text":"Article title"
+                                                                            }                                                                            
+                                                                        },
+                                                                                                                                                {
+                                                                            "type": "sized_box",
+                                                                            "args":{
+                                                                                "height":12
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "type":"text",
+                                                                            "args": {
+                                                                                "text":"Et nostrud anim dolor dolore. Culpa sit deserunt dolore aliqua laboris excepteur sint officia. Irure elit dolor laboris quis do est. Id in laborum mollit ad deserunt est aliquip ullamco ipsum. Et labore minim adipisicing veniam ipsum id consectetur consequat. Aliqua irure deserunt officia culpa."
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                                                        {
+                                        "type": "card",
+                                        "args": {
+                                            "color": "#FDFDFD",
+                                            "elevation": 10,
+                                            "shape": {
+                                                "type": "rounded",
+                                                "borderRadius": 15
+                                            },
+                                            "child": {
+                                                "type": "sized_box",
+                                                "args": {
+                                                    "width": "infinity",
+                                                    "child": {
+                                                        "type": "padding",
+                                                        "args": {
+                                                            "padding": [
+                                                                16,
+                                                                16,
+                                                                16,
+                                                                16
+                                                            ],
+                                                            "child": {
+                                                                "type": "column",
+                                                                "args": {
+                                                                    "children": [
+                                                                        {
+                                                                            "type": "network_image",
+                                                                            "args": {
+                                                                                "fit": "fitWidth",
+                                                                                "src": "https://i.pinimg.com/originals/c2/23/88/c22388a126bd2c5e479821bb61f663ea.jpg"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "type": "sized_box",
+                                                                            "args":{
+                                                                                "height":12
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "type":"text",
+                                                                            "args": {
+                                                                                "style":{
+                                                                                    "fontSize": "20",
+                                                                                    "fontWeight": "bold"
+                                                                                },
+
+                                                                                "text":"Article title"
+                                                                            }                                                                            
+                                                                        },
+                                                                                                                                                {
+                                                                            "type": "sized_box",
+                                                                            "args":{
+                                                                                "height":12
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "type":"text",
+                                                                            "args": {
+                                                                                "text":"Et nostrud anim dolor dolore. Culpa sit deserunt dolore aliqua laboris excepteur sint officia. Irure elit dolor laboris quis do est. Id in laborum mollit ad deserunt est aliquip ullamco ipsum. Et labore minim adipisicing veniam ipsum id consectetur consequat. Aliqua irure deserunt officia culpa."
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                                                        {
+                                        "type": "card",
+                                        "args": {
+                                            "color": "#FDFDFD",
+                                            "elevation": 10,
+                                            "shape": {
+                                                "type": "rounded",
+                                                "borderRadius": 15
+                                            },
+                                            "child": {
+                                                "type": "sized_box",
+                                                "args": {
+                                                    "width": "infinity",
+                                                    "child": {
+                                                        "type": "padding",
+                                                        "args": {
+                                                            "padding": [
+                                                                16,
+                                                                16,
+                                                                16,
+                                                                16
+                                                            ],
+                                                            "child": {
+                                                                "type": "column",
+                                                                "args": {
+                                                                    "children": [
+                                                                        {
+                                                                            "type": "network_image",
+                                                                            "args": {
+                                                                                "fit": "fitWidth",
+                                                                                "src": "https://i.pinimg.com/originals/c2/23/88/c22388a126bd2c5e479821bb61f663ea.jpg"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "type": "sized_box",
+                                                                            "args":{
+                                                                                "height":12
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "type":"text",
+                                                                            "args": {
+                                                                                "style":{
+                                                                                    "fontSize": "20",
+                                                                                    "fontWeight": "bold"
+                                                                                },
+
+                                                                                "text":"Article title"
+                                                                            }                                                                            
+                                                                        },
+                                                                                                                                                {
+                                                                            "type": "sized_box",
+                                                                            "args":{
+                                                                                "height":12
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "type":"text",
+                                                                            "args": {
+                                                                                "text":"Et nostrud anim dolor dolore. Culpa sit deserunt dolore aliqua laboris excepteur sint officia. Irure elit dolor laboris quis do est. Id in laborum mollit ad deserunt est aliquip ullamco ipsum. Et labore minim adipisicing veniam ipsum id consectetur consequat. Aliqua irure deserunt officia culpa."
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "sized_box",
+                                        "args": {
+                                            "height": 12
+                                        }
+                                    },
+                                    {
+                                        "type": "elevated_button",
+                                        "args": {
+                                            "onPressed": "${navigate_named('/screenTwo')}",
+                                            "child": {
+                                                "type": "text",
+                                                "args": {
+                                                    "text": "navigate to screen 2"
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

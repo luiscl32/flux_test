@@ -1,0 +1,109 @@
+{
+    "type": "scaffold",
+    "args": {
+        "body": {
+            "type": "form",
+            "key": "form",
+            "args": {
+                "child": {
+                    "type": "safe_area",
+                    "args": {
+                        "child": {
+                            "type": "single_child_scroll_view",
+                            "args": {
+                                "child": {
+                                    "type": "column",
+                                    "args": {
+                                        "children": [
+                                            {
+                                                "type": "text_form_field",
+                                                "id": "form_id_character_id",
+                                                "args": {
+                                                    "decoration": {
+                                                        "hintText": "Ex: 12340",
+                                                        "labelText": "character ID"
+                                                    },
+                                                    "onPressed": "${set_value('character_id','')}"
+                                                }
+                                            },
+                                            {
+                                            
+                                                        "type": "dynamic",
+                                                        "id": "items",
+                                                        "args": {
+                                                            "dynamic": {
+                                                                "builderType": "container",
+                                                                "childTemplate": {
+                                                                    "type": "container",
+                                                                    "listen": [
+                                                                        "onSearch"
+                                                                    ],
+                                                                    "args": {
+                                                                        "color": "#fdfdfd",
+                                                                        "padding": [
+                                                                            16,
+                                                                            16,
+                                                                            16,
+                                                                            16
+                                                                        ],
+                                                                        "child": {
+                                                                            "type": "column",
+                                                                            "args": {
+                                                                                "children": [
+                                                                                    {
+                                                                                        "type": "text",
+                                                                                        "args": {
+                                                                                            "text": "name:"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "text",
+                                                                                        "args": {
+                                                                                            "text": "${response_data}"
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                    
+                                                    "initState": [
+                                                        {
+                                                            "name": "pepe"
+                                                        }
+                                                    ]
+                                                
+                                            },
+                                            {
+                                                "type": "elevated_button",
+                                                "id": "onSearch",
+                                                "args": {
+                                                    "onPressed": "${onSearch({ 'endpoint':'https://rickandmortyapi.com/api/character/', 'form_key': 'character_id' })}",
+                                                    "child": {
+                                                        "type": "save_context",
+                                                        "args": {
+                                                            "key": "form",
+                                                            "child": {
+                                                                "type": "text",
+                                                                "args": {
+                                                                    "text": "Search"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
